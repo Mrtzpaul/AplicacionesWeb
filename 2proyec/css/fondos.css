@@ -1,0 +1,233 @@
+/*Estilos generals*/
+/*Para adueñarnos de todo el espacio*/
+/*ejemplo de regla para selecto*/
+*{ box-sizing: border-box ;
+ margin: 0;
+ padding: 0;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    margin:20px;
+    font-family:"Roboto Condensed",sans-serif;
+    background-color:#f4faff;
+}
+
+main{
+    width:1000px;
+    min-height:650px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    background-color:#eef8ff;
+    border:2px solid #8fb8d8;
+}
+
+#menu{
+    width:20%;
+    padding:25px;
+    background-color:#d6ecfa;
+    border-right:2px solid #9cc7e5;
+}
+
+#menu h2{
+    font-family:"Roboto Slab",serif;
+    font-size:28px;
+    color:#315f7d;
+    margin-bottom:20px;
+}
+
+#menu ul{
+    list-style:none;
+}
+
+#menu li{
+    margin-bottom:25px;
+    font-size:20px;
+}
+
+#menu a{
+    text-decoration:none;
+    color:#3d6f91;
+}
+
+.col{
+    width:80%;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.renglon{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-bottom:20px;
+}
+
+.imagen1,.imagen2,.imagen3,.imagen_normal,article.abajo,.arriba,.derecha,.izquierda{
+    width:150px;
+    height:150px;
+    margin:5px;
+    border:2px solid #9cc7e5;
+}
+
+.imagen1{
+    background-image:url("../img/spiderman.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.imagen2{
+    background-image:url("../img/walter papu.webp");
+    background-size:cover;
+    background-position:center;
+}
+
+.imagen3{
+    background-image:url("../img/spiderman.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.imagen_normal img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+article.abajo{
+    background:linear-gradient(white,#9dd5f5);
+}
+
+.arriba{
+    background:linear-gradient(#9dd5f5,white);
+}
+
+.derecha{
+    background:linear-gradient(to right,white,#9dd5f5);
+}
+
+.izquierda{
+    background:linear-gradient(to left,white,#9dd5f5);
+}
+
+.renglon.abajo{
+    width:100%;
+    height:auto;
+    margin-top:30px;
+}
+
+.informacion{
+    width:30%;
+    min-height:170px;
+    padding:10px;
+    background-color:#dff2ff;
+    border:2px solid #9cc7e5;
+}
+
+.iconos{
+    display:flex;
+    flex-direction:row;
+}
+
+.iconos span{
+    border:1px solid #79add1;
+    background-color:#bfe2f7;
+    color:#315f7d;
+    padding:5px;
+    margin:3px;
+}
+
+.informacion p{
+    color:#315f7d;
+    margin-top:10px;
+}
+
+.texto{
+    width:30%;
+    min-height:170px;
+    padding:10px;
+    background-color:#d7edfb;
+    border:2px solid #9cc7e5;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.texto p{
+    width:60%;
+    color:#315f7d;
+}
+
+.texto img{
+    width:70px;
+    height:100px;
+    margin-left:10px;
+    object-fit:cover;
+}
+
+.imagen_grande{
+    width:30%;
+    height:190px;
+    border:2px solid #9cc7e5;
+}
+
+.imagen_grande img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+footer{
+    width:1000px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    background-color:#cce8f8;
+    border:2px solid #8fb8d8;
+    border-top:none;
+}
+
+#redes_sociales{
+    width:20%;
+    padding:15px;
+    border-right:2px solid #9cc7e5;
+}
+
+#redes_sociales span{
+    border:1px solid #79add1;
+    background-color:#eaf7ff;
+    color:#315f7d;
+    padding:5px;
+    margin-right:5px;
+}
+
+#google{
+    width:80%;
+    padding:15px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+#google>a{
+    width:30%;
+    color:#3d6f91;
+}
+
+#opciones{
+    width:70%;
+    text-align:right;
+}
+
+#opciones a{
+    color:#315f7d;
+    text-decoration:none;
+    margin-left:10px;
+}
